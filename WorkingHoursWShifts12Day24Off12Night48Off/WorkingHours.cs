@@ -32,8 +32,7 @@ namespace WorkingHoursWShifts12Day24Off12Night48Off
         public WorkingType GetWorkingType(DateTime dateToCheck)
         {
             var elapsedDays = (dateToCheck - _startDate).Days;
-            var totalPeriods = elapsedDays / 4; // 4-cycle of working period 
-            var remainingDays = elapsedDays % 4;
+            var remainingDays = elapsedDays % 4;// 4-cycle of working period 
 
             var _currentSchedule = WorkingType.Day;
 

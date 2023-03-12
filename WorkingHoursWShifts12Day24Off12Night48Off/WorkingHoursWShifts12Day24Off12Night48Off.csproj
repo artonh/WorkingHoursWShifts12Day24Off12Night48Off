@@ -1,14 +1,27 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors>Arton Hoti</Authors>
-    <Description>It's an utility to check the working shifts based on the formula: Working 12 hours during the day, rest 24 hours, working 12h night and rest for the 48h.</Description>
-    <Product>Working 12 Hours a Day then resting for 24h before continuing 12h at Night and ending by 48h to rest</Product>
-    <RepositoryUrl>https://github.com/artonh/WorkingHoursWShifts12Day24Off12Night48Off</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/artonh/WorkingHoursWShifts12Day24Off12Night48Off</PackageProjectUrl>
-    <PackageId>WorkingHoursWithShifts12Day24Off12Night48Off</PackageId>
-    <Version>2.0.0</Version>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Authors>Arton Hoti</Authors>
+		<Description>It's an utility to check the working shifts based on the formula: Working 12 hours during the day, rest 24 hours, working 12h night and rest for the 48h.</Description>
+		<Product>Working 12 Hours a Day then resting for 24h before continuing 12h at Night and ending by 48h to rest</Product>
+		<RepositoryUrl>https://github.com/artonh/WorkingHoursWShifts12Day24Off12Night48Off</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/artonh/WorkingHoursWShifts12Day24Off12Night48Off</PackageProjectUrl>
+		<PackageId>WorkingHoursWithShifts12Day24Off12Night48Off</PackageId>
+		<Version>1.2.0</Version>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<Copyright>Arton Hoti</Copyright>
+		<Company>Arton Hoti</Company>
+		<PackageTags>WorkingShift; Workinghours; DayShift; NightShift</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 
 </Project>
